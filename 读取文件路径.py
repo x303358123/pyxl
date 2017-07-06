@@ -26,6 +26,6 @@ for i in range(len(obj)):
     else:
         a1=''.join(obj[i]+','+mtl[i]+','+jpg[i])
         print(a1,file=files)
-a.close()
+files.close()
 
         
