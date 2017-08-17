@@ -14,4 +14,4 @@ for name1 in file:
 			if dirs1 == aa[1]:
 				root1 = os.path.join(root,dirs1)
 				root2 = os.path.join(root,aa)
-				os.rename(root1, root2)
+				os.rename(root, root2)
